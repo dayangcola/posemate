@@ -1,0 +1,2 @@
+MediaPipe Tasks Vision 0.10.21 (npm @mediapipe/tasks-vision) and pose_landmarker_lite model.
+Copyright Google LLC. Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0

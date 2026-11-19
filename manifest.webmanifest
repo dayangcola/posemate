@@ -1,0 +1,23 @@
+{
+  "name": "姿势搭子 PoseMate",
+  "short_name": "姿势搭子",
+  "description": "实时 AI 拍照姿势教练：选姿势，跟着轮廓摆，对上了就变绿。",
+  "id": "./",
+  "start_url": "./#camera",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f0d11",
+  "theme_color": "#0f0d11",
+  "lang": "zh-CN",
+  "categories": ["photo", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "姿势库", "short_name": "姿势库", "url": "./#library" }
+  ]
+}
