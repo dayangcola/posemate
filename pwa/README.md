@@ -29,16 +29,15 @@ npm test           # 匹配算法单元测试（Node 18+）
 
 相机必须在 **HTTPS 或 localhost** 下才能用。手机真机调试：部署到 Vercel 预览地址最省事，或用 `npx localtunnel --port 5173` 之类的 HTTPS 隧道。
 
-## 部署到 Vercel
+## 部署（GitHub Pages）
 
-这个目录就是网站根目录，没有构建步骤。
+线上地址：**https://dayangcola.github.io/posemate/**
 
-- **网页上**：New Project → 导入仓库 → Root Directory 选 `pwa` → Framework Preset 选 **Other** → Build Command 留空 → Deploy。
-- **命令行**：`cd pwa && npx vercel`（首次会让你登录并建项目），正式发布 `npx vercel --prod`。
+推送到 `main` 且 `pwa/` 有改动时，`.github/workflows/pages.yml` 会先跑测试，再把 `pwa/` 发布到 GitHub Pages（仓库 Settings → Pages 的 Source 需为 “GitHub Actions”）。发版时记得改 `sw.js` 里的 `VERSION`，用户才会收到“有新版本”提示。
 
-`vercel.json` 已配置：`sw.js` 不缓存（保证能拿到新版）、`/vendor/` 长缓存、`Permissions-Policy: camera=(self)`。
+所有路径都是相对路径，放在任何子路径下都能用；`vercel.json` 只是备用（想换 Vercel 时 Root Directory 选 `pwa`）。
 
-> 国内访问：模型和 wasm 都自托管在 `vendor/`，不依赖 Google 的 CDN。Vercel 默认域名在国内访问不稳定，正式上线建议绑定自己的域名（或换国内 CDN/对象存储托管，同样是纯静态文件）。
+> 国内访问：模型和 wasm 都自托管在 `vendor/`，不依赖 Google 的 CDN。`github.io` 在国内有时较慢或打不开，正式上线建议绑定自己的域名（或换国内 CDN/对象存储托管，同样是纯静态文件）。
 
 ## 目录
 
