@@ -1,4 +1,6 @@
-# 把 pwa/ 发布到 GitHub Pages：推送到 main 且 pwa/ 有改动时自动部署
+# 把 pwa/ 发布到 gh-pages 分支，GitHub Pages 从这个分支提供网站：
+# https://dayangcola.github.io/posemate/
+# 推送到 main 且 pwa/ 有改动时自动运行（先跑测试）
 name: Deploy PWA to GitHub Pages
 
 on:
@@ -8,9 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -19,9 +19,6 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -29,9 +26,16 @@ jobs:
           node-version: 22
       - name: Test matcher
         run: cd pwa && npm test
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: pwa
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish pwa/ to gh-pages branch
+        run: |
+          out=$(mktemp -d)
+          cp -r pwa/. "$out/"
+          rm -rf "$out/tests"
+          touch "$out/.nojekyll"
+          cd "$out"
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "Deploy ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
