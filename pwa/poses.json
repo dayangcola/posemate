@@ -1,0 +1,721 @@
+[
+  {
+    "id": "hand-on-hip",
+    "title": {
+      "zh": "单手叉腰",
+      "en": "Hand on hip"
+    },
+    "category": "female",
+    "tags": [
+      "日常",
+      "显瘦"
+    ],
+    "isPro": false,
+    "allowMirror": true,
+    "subjectTips": [
+      {
+        "zh": "手肘向外打开，腰线更明显",
+        "en": "Open your elbow outward to define the waist"
+      },
+      {
+        "zh": "重心放在后脚",
+        "en": "Shift weight to your back leg"
+      }
+    ],
+    "photographerTips": [
+      {
+        "zh": "手机放低到腰部，略微仰拍，显腿长",
+        "en": "Hold the phone at waist height, tilt up slightly to lengthen legs"
+      }
+    ],
+    "joints": {
+      "nose": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "neck": {
+        "x": 0.5,
+        "y": 0.24
+      },
+      "leftShoulder": {
+        "x": 0.58,
+        "y": 0.25
+      },
+      "rightShoulder": {
+        "x": 0.42,
+        "y": 0.25
+      },
+      "leftElbow": {
+        "x": 0.68,
+        "y": 0.36
+      },
+      "rightElbow": {
+        "x": 0.39,
+        "y": 0.37
+      },
+      "leftWrist": {
+        "x": 0.57,
+        "y": 0.47
+      },
+      "rightWrist": {
+        "x": 0.38,
+        "y": 0.48
+      },
+      "root": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "leftHip": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "rightHip": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "leftKnee": {
+        "x": 0.56,
+        "y": 0.68
+      },
+      "rightKnee": {
+        "x": 0.44,
+        "y": 0.68
+      },
+      "leftAnkle": {
+        "x": 0.56,
+        "y": 0.86
+      },
+      "rightAnkle": {
+        "x": 0.44,
+        "y": 0.86
+      }
+    }
+  },
+  {
+    "id": "hair-touch",
+    "title": {
+      "zh": "撩头发",
+      "en": "Hair touch"
+    },
+    "category": "female",
+    "tags": [
+      "氛围感"
+    ],
+    "isPro": false,
+    "allowMirror": true,
+    "subjectTips": [
+      {
+        "zh": "手轻轻搭在头顶，不要用力",
+        "en": "Rest your hand lightly on your head"
+      },
+      {
+        "zh": "下巴微收，眼神看远处",
+        "en": "Tuck your chin, look into the distance"
+      }
+    ],
+    "photographerTips": [
+      {
+        "zh": "人物放在画面三分线上",
+        "en": "Place the subject on a rule-of-thirds line"
+      }
+    ],
+    "joints": {
+      "nose": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "neck": {
+        "x": 0.5,
+        "y": 0.24
+      },
+      "leftShoulder": {
+        "x": 0.58,
+        "y": 0.25
+      },
+      "rightShoulder": {
+        "x": 0.42,
+        "y": 0.25
+      },
+      "leftElbow": {
+        "x": 0.61,
+        "y": 0.37
+      },
+      "rightElbow": {
+        "x": 0.36,
+        "y": 0.16
+      },
+      "leftWrist": {
+        "x": 0.62,
+        "y": 0.48
+      },
+      "rightWrist": {
+        "x": 0.46,
+        "y": 0.12
+      },
+      "root": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "leftHip": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "rightHip": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "leftKnee": {
+        "x": 0.56,
+        "y": 0.68
+      },
+      "rightKnee": {
+        "x": 0.44,
+        "y": 0.68
+      },
+      "leftAnkle": {
+        "x": 0.56,
+        "y": 0.86
+      },
+      "rightAnkle": {
+        "x": 0.44,
+        "y": 0.86
+      }
+    }
+  },
+  {
+    "id": "peace-sign",
+    "title": {
+      "zh": "比耶",
+      "en": "Peace sign"
+    },
+    "category": "female",
+    "tags": [
+      "可爱"
+    ],
+    "isPro": false,
+    "allowMirror": true,
+    "subjectTips": [
+      {
+        "zh": "手放在脸旁，不要挡住脸",
+        "en": "Keep your hand beside your face, not covering it"
+      }
+    ],
+    "photographerTips": [
+      {
+        "zh": "半身构图，头顶留一点空间",
+        "en": "Half-body framing with a little headroom"
+      }
+    ],
+    "joints": {
+      "nose": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "neck": {
+        "x": 0.5,
+        "y": 0.24
+      },
+      "leftShoulder": {
+        "x": 0.58,
+        "y": 0.25
+      },
+      "rightShoulder": {
+        "x": 0.42,
+        "y": 0.25
+      },
+      "leftElbow": {
+        "x": 0.61,
+        "y": 0.37
+      },
+      "rightElbow": {
+        "x": 0.36,
+        "y": 0.3
+      },
+      "leftWrist": {
+        "x": 0.62,
+        "y": 0.48
+      },
+      "rightWrist": {
+        "x": 0.4,
+        "y": 0.18
+      },
+      "root": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "leftHip": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "rightHip": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "leftKnee": {
+        "x": 0.56,
+        "y": 0.68
+      },
+      "rightKnee": {
+        "x": 0.44,
+        "y": 0.68
+      },
+      "leftAnkle": {
+        "x": 0.56,
+        "y": 0.86
+      },
+      "rightAnkle": {
+        "x": 0.44,
+        "y": 0.86
+      }
+    }
+  },
+  {
+    "id": "hands-in-pockets",
+    "title": {
+      "zh": "双手插兜",
+      "en": "Hands in pockets"
+    },
+    "category": "male",
+    "tags": [
+      "男生",
+      "街拍"
+    ],
+    "isPro": false,
+    "allowMirror": true,
+    "subjectTips": [
+      {
+        "zh": "肩膀放松下沉",
+        "en": "Relax and drop your shoulders"
+      },
+      {
+        "zh": "一条腿微微弯曲",
+        "en": "Bend one knee slightly"
+      }
+    ],
+    "photographerTips": [
+      {
+        "zh": "手机放低到腰部，略微仰拍，显腿长",
+        "en": "Hold the phone at waist height, tilt up slightly to lengthen legs"
+      }
+    ],
+    "joints": {
+      "nose": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "neck": {
+        "x": 0.5,
+        "y": 0.24
+      },
+      "leftShoulder": {
+        "x": 0.58,
+        "y": 0.25
+      },
+      "rightShoulder": {
+        "x": 0.42,
+        "y": 0.25
+      },
+      "leftElbow": {
+        "x": 0.64,
+        "y": 0.38
+      },
+      "rightElbow": {
+        "x": 0.36,
+        "y": 0.38
+      },
+      "leftWrist": {
+        "x": 0.57,
+        "y": 0.5
+      },
+      "rightWrist": {
+        "x": 0.43,
+        "y": 0.5
+      },
+      "root": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "leftHip": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "rightHip": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "leftKnee": {
+        "x": 0.56,
+        "y": 0.68
+      },
+      "rightKnee": {
+        "x": 0.44,
+        "y": 0.68
+      },
+      "leftAnkle": {
+        "x": 0.56,
+        "y": 0.86
+      },
+      "rightAnkle": {
+        "x": 0.44,
+        "y": 0.86
+      }
+    }
+  },
+  {
+    "id": "crossed-arms",
+    "title": {
+      "zh": "抱臂",
+      "en": "Crossed arms"
+    },
+    "category": "male",
+    "tags": [
+      "男生",
+      "自信"
+    ],
+    "isPro": false,
+    "allowMirror": true,
+    "subjectTips": [
+      {
+        "zh": "身体侧转 30°，更显肩宽",
+        "en": "Turn your body ~30° to broaden your shoulders"
+      }
+    ],
+    "photographerTips": [
+      {
+        "zh": "平视拍摄，不要俯拍",
+        "en": "Shoot at eye level, never from above"
+      }
+    ],
+    "joints": {
+      "nose": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "neck": {
+        "x": 0.5,
+        "y": 0.24
+      },
+      "leftShoulder": {
+        "x": 0.58,
+        "y": 0.25
+      },
+      "rightShoulder": {
+        "x": 0.42,
+        "y": 0.25
+      },
+      "leftElbow": {
+        "x": 0.62,
+        "y": 0.38
+      },
+      "rightElbow": {
+        "x": 0.38,
+        "y": 0.38
+      },
+      "leftWrist": {
+        "x": 0.45,
+        "y": 0.36
+      },
+      "rightWrist": {
+        "x": 0.55,
+        "y": 0.36
+      },
+      "root": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "leftHip": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "rightHip": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "leftKnee": {
+        "x": 0.56,
+        "y": 0.68
+      },
+      "rightKnee": {
+        "x": 0.44,
+        "y": 0.68
+      },
+      "leftAnkle": {
+        "x": 0.56,
+        "y": 0.86
+      },
+      "rightAnkle": {
+        "x": 0.44,
+        "y": 0.86
+      }
+    }
+  },
+  {
+    "id": "stair-sit",
+    "title": {
+      "zh": "台阶坐姿",
+      "en": "Sitting on steps"
+    },
+    "category": "sitting",
+    "tags": [
+      "坐姿"
+    ],
+    "isPro": true,
+    "allowMirror": true,
+    "subjectTips": [
+      {
+        "zh": "腿一前一后，避免两腿平行",
+        "en": "Stagger your legs instead of keeping them parallel"
+      },
+      {
+        "zh": "背挺直",
+        "en": "Keep your back straight"
+      }
+    ],
+    "photographerTips": [
+      {
+        "zh": "蹲下来与人物视线齐平",
+        "en": "Crouch to the subject's eye level"
+      }
+    ],
+    "joints": {
+      "nose": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "neck": {
+        "x": 0.5,
+        "y": 0.24
+      },
+      "leftShoulder": {
+        "x": 0.58,
+        "y": 0.25
+      },
+      "rightShoulder": {
+        "x": 0.42,
+        "y": 0.25
+      },
+      "leftElbow": {
+        "x": 0.61,
+        "y": 0.37
+      },
+      "rightElbow": {
+        "x": 0.39,
+        "y": 0.37
+      },
+      "leftWrist": {
+        "x": 0.6,
+        "y": 0.68
+      },
+      "rightWrist": {
+        "x": 0.42,
+        "y": 0.64
+      },
+      "root": {
+        "x": 0.5,
+        "y": 0.58
+      },
+      "leftHip": {
+        "x": 0.55,
+        "y": 0.58
+      },
+      "rightHip": {
+        "x": 0.45,
+        "y": 0.58
+      },
+      "leftKnee": {
+        "x": 0.6,
+        "y": 0.7
+      },
+      "rightKnee": {
+        "x": 0.42,
+        "y": 0.72
+      },
+      "leftAnkle": {
+        "x": 0.58,
+        "y": 0.88
+      },
+      "rightAnkle": {
+        "x": 0.46,
+        "y": 0.88
+      }
+    }
+  },
+  {
+    "id": "couple-walk",
+    "title": {
+      "zh": "情侣牵手走",
+      "en": "Couple walking"
+    },
+    "category": "couple",
+    "tags": [
+      "情侣"
+    ],
+    "isPro": true,
+    "allowMirror": true,
+    "subjectTips": [
+      {
+        "zh": "自然走动，边走边聊天",
+        "en": "Walk naturally and chat"
+      },
+      {
+        "zh": "回头看对方，不看镜头",
+        "en": "Look at each other, not the camera"
+      }
+    ],
+    "photographerTips": [
+      {
+        "zh": "连拍模式，从背后或侧面跟拍",
+        "en": "Use burst mode, follow from behind or the side"
+      }
+    ],
+    "joints": {
+      "nose": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "neck": {
+        "x": 0.5,
+        "y": 0.24
+      },
+      "leftShoulder": {
+        "x": 0.58,
+        "y": 0.25
+      },
+      "rightShoulder": {
+        "x": 0.42,
+        "y": 0.25
+      },
+      "leftElbow": {
+        "x": 0.61,
+        "y": 0.37
+      },
+      "rightElbow": {
+        "x": 0.36,
+        "y": 0.4
+      },
+      "leftWrist": {
+        "x": 0.62,
+        "y": 0.48
+      },
+      "rightWrist": {
+        "x": 0.3,
+        "y": 0.5
+      },
+      "root": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "leftHip": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "rightHip": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "leftKnee": {
+        "x": 0.58,
+        "y": 0.67
+      },
+      "rightKnee": {
+        "x": 0.44,
+        "y": 0.68
+      },
+      "leftAnkle": {
+        "x": 0.6,
+        "y": 0.84
+      },
+      "rightAnkle": {
+        "x": 0.44,
+        "y": 0.86
+      }
+    }
+  },
+  {
+    "id": "group-jump",
+    "title": {
+      "zh": "朋友一起跳",
+      "en": "Group jump"
+    },
+    "category": "group",
+    "tags": [
+      "朋友"
+    ],
+    "isPro": true,
+    "allowMirror": true,
+    "subjectTips": [
+      {
+        "zh": "数到三一起跳",
+        "en": "Jump together on three"
+      }
+    ],
+    "photographerTips": [
+      {
+        "zh": "低机位仰拍，开连拍",
+        "en": "Low angle, burst mode"
+      }
+    ],
+    "joints": {
+      "nose": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "neck": {
+        "x": 0.5,
+        "y": 0.24
+      },
+      "leftShoulder": {
+        "x": 0.58,
+        "y": 0.25
+      },
+      "rightShoulder": {
+        "x": 0.42,
+        "y": 0.25
+      },
+      "leftElbow": {
+        "x": 0.66,
+        "y": 0.16
+      },
+      "rightElbow": {
+        "x": 0.34,
+        "y": 0.16
+      },
+      "leftWrist": {
+        "x": 0.7,
+        "y": 0.06
+      },
+      "rightWrist": {
+        "x": 0.3,
+        "y": 0.06
+      },
+      "root": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "leftHip": {
+        "x": 0.55,
+        "y": 0.5
+      },
+      "rightHip": {
+        "x": 0.45,
+        "y": 0.5
+      },
+      "leftKnee": {
+        "x": 0.58,
+        "y": 0.64
+      },
+      "rightKnee": {
+        "x": 0.42,
+        "y": 0.64
+      },
+      "leftAnkle": {
+        "x": 0.6,
+        "y": 0.76
+      },
+      "rightAnkle": {
+        "x": 0.4,
+        "y": 0.76
+      }
+    }
+  }
+]
